@@ -1,33 +1,58 @@
+# Block Puzzle Game
 
-![](blockypuzzle.png)
+## Overview
 
-<sub><sup>
+Welcome to my personal project: the **Block Puzzle Game**! This is a fun and engaging puzzle game where players aim to strategically place blocks on a grid to clear rows and columns. I've created this game as a way to practice my programming skills, particularly in Java, and to deepen my understanding of arrays and algorithmic problem-solving.
 
-image ref: [Carloseow at English Wikipedia](https://en.wikipedia.org/wiki/Sokoban#/media/File:Sokoban_ani.gif) 
+## Project Goals
 
-</sup></sub>
+The main objectives of this project are to:
 
-# Learning outcome
+- **Practice Java Programming**: Focus on using arrays and 2D arrays without relying on advanced data structures.
+- **Understand Game Logic**: Implement the rules and mechanics of a classic block puzzle game.
+- **Enhance Problem-Solving Skills**: Develop algorithms to manage game states and user interactions.
 
-Students are expected to have some practice on arrays/2D arrays/parameter passing/method construction and usage in this assignment. We expect most students would spend six hours or more to finish the assignment without any assistance. Make sure you start earlier as possible and ask us on Discord if you have any difficulty! Note: we want to familiarize arrays and 2D arrays, so you are not supposed (and not allowed) to use advanced data structures like ArrayList, Set, Map, etc...
+## Getting Started
 
+To run the Block Puzzle Game locally, follow these steps:
 
-# Introduction
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/khwang0/COMP2045-2425PA1.git
+   cd COMP2045-2425PA1
+   ```
 
-You are going to complete the Block Puzzle program! Open [BlockPuzzle.java](BlockPuzzle.java) and complete the methods stated in the skeleton code. Some of these methods are very straightforward while some of them ain't that easy. Make sure you can follow the instructions given at the top of each method.
+2. **Download the Demo**: You can download the demo program [here](demo.jar).
 
-A [sample program](demo.jar) is given to you. When there is something you are not sure, you can take a look at the sample program to decide what to do. 
+3. **Run the Demo**:
+   Open your terminal and execute the following command:
+   ```sh
+   java -jar demo.jar
+   ```
 
-Some methods are labeled as completed or given. Please don't make any change on those methods. You are not supposed to modify them. **You can add your own method if you want to**. However, you are not allowed to introduce any class variable (field) or additional class. Whenever possible, please refer the constant variables (`PUZZLES`, `ROW`, `COL`, `ROUND`, `SCORES`) defined in the program.
+## Gameplay
 
+In the Block Puzzle Game, you'll face random puzzles that you need to place on an 8x9 grid. The goal is to fill rows and columns to score points. Here are the key features:
 
+- **Puzzle Placement**: You cannot rotate blocks, and they must fit within the grid without overlapping.
+- **Scoring System**: Clear rows or columns to earn points. The game ends when no more blocks can be placed.
 
+## Learning Outcomes
 
+Through this project, I aim to:
 
+- Gain hands-on experience with Java fundamentals.
+- Improve my understanding of game design principles.
+- Learn to manage game states and user input effectively.
 
+## Contributions
 
+If you're interested in contributing, feel free to reach out! I'd love to collaborate or get feedback on my code. 
 
+## License
 
+This project is open for personal use and learning purposes. Feel free to explore and modify the code as you see fit!
 
+---
 
-
+Thanks for checking out my Block Puzzle Game! If you have any questions or suggestions, don't hesitate to reach out. Happy coding!
